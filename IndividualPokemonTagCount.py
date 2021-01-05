@@ -43,7 +43,7 @@ for pokemon in pokelist:
 	if percent==100 and 100*i/totnum<100:
 		percent=99
 	if percent!=prevpercent:
-		#system('cls')
+		system('cls')
 		print(str(percent)+"%")
 	
 	#find code
