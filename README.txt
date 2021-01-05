@@ -14,11 +14,14 @@ The file contains 3 lines:
 username=""
 This is where you put your e621 username.
 key=""
-This is where you put your access key. To get this key, go to https://e621.net/users/home while signed in to e621.net, go to "Manage API Access",
-then generate a key.
+This is where you put your access key. To get this key, go to https://e621.net/users/home while signed in to e621.net, go to "Manage API Access", then generate a key.
 useragent="IWantStatsOnPokemonTags (by "+username+" on e621)"
-As a default, the user agent of the project will be set to "IWantStatsOnPokemonTags", followed by your e621 username.
-Edit this line to change the name of the project, but make sure to keep the "(by username on e621)" to comply with the e621 API rules.
+As a default, the user agent of the project will be set to "IWantStatsOnPokemonTags", followed by your e621 username. Edit this line to change the name of the project, but make sure to keep the "(by username on e621)" to comply with the e621 API rules.
+
+PokemonLists.py
+In order to run any code that uses a list of pokemon, this file must be in the same directory as the code being ran. This file requires no editing, but if it is out of date, it can be edited to add more pokemon.
+This can also be edited if your project cares about specific forms of pokemon (i.e. Lycanroc_midday vs Lycanroc_midnight.)
+This file consists of 3 lists: one of default pokemon, one of alolan regional variants, and one of galarian regional variants. This is due to e621 tagging interpreting regional variants as distinct from the default variety.
 
 
 IndividualPokemonTagCount.py
