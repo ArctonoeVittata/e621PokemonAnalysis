@@ -36,5 +36,4 @@ rank of pokemon,name of pokemon,number of nsfw posts of pokemon
 
 To be created:
 Code that allows testing of access to e621 API.
-Saving pokemon list as seperate file, for easier editing and referring with other code.
 Code that shows correlation of certain pokemon with other tags.
