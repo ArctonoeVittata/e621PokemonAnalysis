@@ -1,9 +1,9 @@
 import requests
-from APIAccessInfo import username, key, useragent
+from APIAccessInfo import username, key, user_agent
 import time
 
 #login info
-headers={"User-Agent":useragent}
+headers={"User-Agent":user_agent}
 params={"login":username,"api_key":key}
 
 response=requests.get("https://e621.net/",params=params,headers=headers)

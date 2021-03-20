@@ -2,4 +2,4 @@
 
 username="" #put e621 username here.
 key="" #put access key here. This is recieved from e621. For more info, see readme.
-useragent="IWantStatsOnPokemonTags (by "+username+" on e621)" #feel free to change project name.
+user_agent="IWantStatsOnPokemonTags (by "+username+" on e621)" #feel free to change project name.
